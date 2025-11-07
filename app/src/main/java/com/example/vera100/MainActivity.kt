@@ -27,10 +27,10 @@ import androidx.compose.ui.unit.sp
 import com.example.vera100.ui.theme.VERA100Theme
 import com.example.vera100.R
 
-// Font personalizzato (lo stesso che hai già nel progetto)
+
 val bebasNeue = FontFamily(Font(R.font.bebas_neue))
 
-// Classe principale dell'app
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -44,7 +44,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-// data class per rappresentare un Film
+
 data class Film(val titolo: String, val descrizione: String, val voto: Int)
 
 // data class per rappresentare un Genere (con lista di film)
@@ -78,7 +78,7 @@ fun FilmApp() {
     }
 }
 
-// Intestazione dell'app (quella che avevi già)
+// Intestazione dell'app
 @Composable
 fun AppHeader() {
     Surface(color = Color.Black, modifier = Modifier.fillMaxWidth()) {
