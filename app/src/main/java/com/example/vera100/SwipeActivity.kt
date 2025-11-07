@@ -30,6 +30,8 @@ import com.example.vera100.ui.theme.VERA100Theme
 
 val bebasNeueSwipe = FontFamily(Font(R.font.bebas_neue))
 
+
+
 class SwipeActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
