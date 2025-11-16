@@ -1,4 +1,4 @@
-package com.example.vera100
+package com.example.vera100.Codelabs
 
 
 
@@ -9,7 +9,6 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.background
 import androidx.compose.foundation.gestures.detectHorizontalDragGestures
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -24,8 +23,9 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.vera100.PopVote.AppHeader
+import com.example.vera100.PopVote.theme.VERA100Theme
 import com.example.vera100.R
-import com.example.vera100.ui.theme.VERA100Theme
 
 
 val bebasNeueSwipe = FontFamily(Font(R.font.bebas_neue))

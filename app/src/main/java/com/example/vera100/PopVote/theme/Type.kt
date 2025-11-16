@@ -1,4 +1,4 @@
-package com.example.vera100.ui.theme
+package com.example.vera100.PopVote.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

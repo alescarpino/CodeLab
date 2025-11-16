@@ -1,4 +1,4 @@
-package com.example.vera100
+package com.example.vera100.PopVote
 
 // import principali per Android e Compose
 import android.os.Bundle
@@ -24,7 +24,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.vera100.ui.theme.VERA100Theme
+import com.example.vera100.PopVote.theme.VERA100Theme
 import com.example.vera100.R
 
 
