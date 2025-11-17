@@ -1,4 +1,4 @@
-package com.example.vera100.PopVote
+package com.example.vera100.PopVote.data.model
 
 import android.R
 
