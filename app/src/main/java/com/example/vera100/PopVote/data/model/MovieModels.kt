@@ -6,6 +6,7 @@ data class Movie(
     val description: R.string,
     val valutation: Int
 )
+
 data class Genre(
     val name: R.string,
     val movieList: MutableList<Movie> = mutableListOf()
